@@ -1,6 +1,5 @@
-
 const Footer = () => {
-  return (
+	return (
 		<footer>
 			<div className="footer-top">
 				<div className="container">
@@ -9,7 +8,7 @@ const Footer = () => {
 						style={{ backgroundColor: "#f1f1f1" }}
 					>
 						<div className="col-md-4">
-							<h2 className="logo">CoinsNest</h2>
+							<h2 className="logo">CoinNest</h2>
 						</div>
 
 						<div className="col-md-8">
@@ -113,6 +112,6 @@ const Footer = () => {
 			</div>
 		</footer>
 	);
-}
+};
 
-export default Footer
+export default Footer;
